@@ -1,0 +1,36 @@
+Course Project: Shiny Application and Reproducible Pitch
+========================================================
+author: San
+date: 10/20/2017
+autosize: true
+
+Course Project
+========================================================
+
+
+- This is the  presentation for the Coursera Project
+- The course is focused on Developing Data Products
+- The main objective of the project is to write a Shiny application
+
+
+Shiny Application
+========================================================
+
+
+- In this project is developed using Shiny Application
+- The objective of the project to calculate miles per gallon based on selection
+- The motivation this project to understand and analyze car details.
+
+Loading Car Details using R program
+========================================================
+
+```{r}
+summary(mtcars)
+```
+
+Car box plots
+========================================================
+
+```{r, echo=FALSE}
+plot(mtcars$mpg)
+```
